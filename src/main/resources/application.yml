@@ -1,0 +1,22 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: USER-MANAGEMENT
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/chat_app
+    username: root
+    password: 123456789
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+
+
+# postgresql
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/chat_app
+#    username: username
+#    password: password
